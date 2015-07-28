@@ -129,7 +129,7 @@ Thank you pages must have the:
   - Single Line Text: Field Label: `Email`,     Required: `ticked`, Placeholder: `Email`,     Custom CSS Class: `gf_left_half`
   - Single Line Text: Field Label: `Telephone`, Required: `ticked`, Placeholder: `Telephone`, Custom CSS Class: `gf_right_half`
 - Select `Update Form` at the bottom of the right hand navigation to save changes
-- Update the [Form Settings](#form-settings)
+- Go to the [Form Settings](#form-settings) section to add the thank you page and email details
 
 #### Form Settings
 
@@ -139,6 +139,7 @@ Thank you pages must have the:
   - Click on `Default Confirmation` to edit the confirmation page
   - Select Confirmation Type: `Page`
   - Select the Page previously setup: `Thank You - {{form name}}`
+  - Select `Save Confirmation` to save changes
 - Select `Notifications` from the left hand navigation bar
   - Click on `Admin Notification` to edit the notification
   - Update `Send to Email` to `info@obanmultilingual.com`

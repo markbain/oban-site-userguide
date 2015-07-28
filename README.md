@@ -5,7 +5,7 @@ This is the user guide and conventions of the Oban Website found at http://www.o
 ## Table of contents
 
   - [Forms](#forms)
-    - [Uploading PDF](#up;loading-pdf)
+    - [Uploading a PDF file](#uploading-a-pdf-file)
     - [Creating a thank you page](#creating-a-thank-you-page)
     - [Creating a form](#creating-a-form)
     - [Linking into a post](#linking-into-a-post)
@@ -28,7 +28,12 @@ Forms comprise of:
 
 ### Uploading a pdf
 
--
+- Select `Media` from the left hand navigation.
+- Select `Add New` to create a new page
+- Drag the file into the box to upload it to the server
+- The file will upload to the server and appear as the top right file in the list of media
+- Click the file 
+- Note the URL
 
 ### Creating a thank you page
 

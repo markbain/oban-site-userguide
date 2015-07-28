@@ -5,6 +5,7 @@ This is the user guide and conventions of the Oban Website found at http://www.o
 ## Table of contents
 
   - [Forms](#forms)
+    - [Uploading PDF](#up;loading-pdf)
     - [Creating a thank you page](#creating-a-thank-you-page)
     - [Creating a form](#creating-a-form)
     - [Linking into a post](#linking-into-a-post)
@@ -15,6 +16,7 @@ This is the user guide and conventions of the Oban Website found at http://www.o
 
 Forms comprise of:
 
+- optionally a pdf download
 - a thank you page
 - a form, added in Forms (Gravity Forms)
 - a shortcode added to a post
@@ -23,6 +25,10 @@ Forms comprise of:
 
 - Login to the production site.
 - Select the correct site e.g. `Oban UK` from the `My Sites` dropdown.
+
+### Uploading a pdf
+
+-
 
 ### Creating a thank you page
 

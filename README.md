@@ -7,7 +7,8 @@ This is the user guide and conventions of the Oban Website found at http://www.o
   - [Forms](#forms)
     - [Creating a thank you page](#creating-a-thank-you-page)
     - [Creating a form](#creating-a-form)
-    - [Linking into a post](#linking-into-a-post)
+    - [Linking into a post](#linking-into-a-post) OR
+    - [Creating a form page](#creating-a-form-page)
 
 ## Forms
 
@@ -188,3 +189,49 @@ Contact forms must have the:
   ```
 - Click `Update` to save changes
 
+### Creating a form page
+
+[Top](#oban-website-user-guide)
+
+- Select `Pages` from the left hand navigation.
+- This will show a list of all the pages.
+- Select `Add New` to create a new page
+- Set the fields according to the [conventions](#form-page-conventions)
+  - Parent in the right hand navigation to `Form`
+  - Name to `Form - {{form name}}`
+  - Body to (updating the name and link)
+
+    ``` html
+    [vc_row][vc_column width="1/1"][vc_column_text]
+    <div id="infocal">
+    <p style="text-align: center;">Thank you for your interest in our Global Partner Programme. Please fill in the form below and we will be in contact shortly.</p>
+
+    </div>
+    &nbsp;
+
+    [/vc_column_text] [gravityform id=27 title=false description=false ajax=false tabindex=49][/vc_column][/vc_row]
+    ```
+
+  - All in One SEO Pack Title to a friendly title if required (overrides the name when viewing)
+- Select Publish
+
+#### Form page conventions
+
+Thank you pages must have the:
+
+- parent page set to
+  ```
+  Form
+  ```
+- title set to
+  ```
+  Form - {{form name}}
+  ```
+  e.g.
+  ```
+  Form - Download: Whitepaper 10 Key Dates
+  ```
+- Optionally: All in One SEO Pack title set to friendly text e.g.:
+  ```
+  Download your whitepaper.
+  ```

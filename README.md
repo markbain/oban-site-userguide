@@ -5,7 +5,6 @@ This is the user guide and conventions of the Oban Website found at http://www.o
 ## Table of contents
 
   - [Forms](#forms)
-    - [Uploading a PDF file](#uploading-a-pdf-file)
     - [Creating a thank you page](#creating-a-thank-you-page)
     - [Creating a form](#creating-a-form)
     - [Linking into a post](#linking-into-a-post) OR
@@ -17,7 +16,6 @@ This is the user guide and conventions of the Oban Website found at http://www.o
 
 Forms comprise of:
 
-- optionally a pdf download
 - a thank you page
 - a form, added in Forms (Gravity Forms)
 - a shortcode added to a post
@@ -26,15 +24,6 @@ Forms comprise of:
 
 - Login to the production site.
 - Select the correct site e.g. `Oban UK` from the `My Sites` dropdown.
-
-### Uploading a pdf
-
-- Select `Media` from the left hand navigation.
-- Select `Add New` to create a new page
-- Drag the file into the box to upload it to the server
-- The file will upload to the server and appear as the top right file in the list of media
-- Click the file 
-- Note the URL
 
 ### Creating a thank you page
 
@@ -130,7 +119,7 @@ Thank you pages must have the:
   - Single Line Text: Field Label: `Email`,     Required: `ticked`, Placeholder: `Email`,     Custom CSS Class: `gf_left_half`
   - Single Line Text: Field Label: `Telephone`, Required: `ticked`, Placeholder: `Telephone`, Custom CSS Class: `gf_right_half`
 - Select `Update Form` at the bottom of the right hand navigation to save changes
-- Go to the [Form Settings](#form-settings) section to add the thank you page and email details
+- Update the [Form Settings](#form-settings)
 
 #### Form Settings
 
@@ -140,7 +129,6 @@ Thank you pages must have the:
   - Click on `Default Confirmation` to edit the confirmation page
   - Select Confirmation Type: `Page`
   - Select the Page previously setup: `Thank You - {{form name}}`
-  - Select `Save Confirmation` to save changes
 - Select `Notifications` from the left hand navigation bar
   - Click on `Admin Notification` to edit the notification
   - Update `Send to Email` to `info@obanmultilingual.com`
@@ -216,12 +204,14 @@ Contact forms must have the:
     ``` html
     [vc_row][vc_column width="1/1"][vc_column_text]
     <div id="infocal">
-    <p style="text-align: center;">Thank you for your interest in our Global Partner Programme. Please fill in the form below and we will be in contact shortly.</p>
-
+    <p style="text-align: center;">
+    Thank you for your interest in our Global Partner Programme.
+    Please fill in the form below and we will be in contact shortly.
+    </p>
     </div>
-    &nbsp;
-
-    [/vc_column_text] [gravityform id=27 title=false description=false ajax=false tabindex=49][/vc_column][/vc_row]
+    [/vc_column_text]
+    [gravityform id={{id}} title=false description=false ajax=false tabindex=49]
+    [/vc_column][/vc_row]
     ```
 
   - All in One SEO Pack Title to a friendly title if required (overrides the name when viewing)

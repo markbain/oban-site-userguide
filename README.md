@@ -9,6 +9,13 @@ This is the user guide and conventions of the Oban Website found at http://www.o
     - [Creating a form](#creating-a-form)
     - [Linking into a post](#linking-into-a-post) OR
     - [Creating a form page](#creating-a-form-page)
+  - [Services](#services)
+    - [Create a new service page](create-a-new-service-page)
+    - [Add menu](add-menu])
+    - [Add custom post type](add-custom-post-type)
+    - [Add custom post type to services field group](add-custom-post-type-to-services-field-group)
+    - [Add custom post](add-custom-post)
+    - [Add services custom post](add-services-custom-post)
 
 ## Forms
 
@@ -237,3 +244,69 @@ Thank you pages must have the:
   ```
   Download your whitepaper.
   ```
+
+## Services
+
+How to add a completely new services section
+
+### Create a new service page
+
+- Select New page in the Wordpress Navigation
+- Set your title and content
+- Set template to Services - Full Width
+- Press Publish (or Save Draft if you do not want this page to be publically visible yet)
+
+### Add Menu
+
+To add the service page to the main menu
+
+- Select Appearance > Menus in the Wordpress Navigation
+- Select Main Menu in the Menu dropdown
+- Tick your page in the list and press Add to menu
+- Drag your new menu item from the bottom to reorder the menu
+- Reorder any submenu items necessary under the new Service
+- Press Save Menu
+
+### Add Custom Post Type
+
+To create the green icons for sub menu items of the new service page
+
+- Select CPT UI > Add New Post Type in the Wordpress Navigation
+- Set Post Type Slug to a different value than the page slug
+- Set labels to Services X and Service X (where X is your new service type)
+- Set Exclude from Search: True
+- Set With Front: False
+- Set: Supports: Title, Featured Image
+- Press Add Post Type
+- Press F5 (refresh) to reload the Wordpress Dashboard and show your new post type in Wordpress Navigation
+
+### Add Custom Post Type to Services Field Group
+
+To allow selecting a page to direct the new custom posts to
+
+- Custom Fields
+- Select Services
+- Press Add Rule Group
+- Post Type is equal to Service X
+
+### Add Custom Post
+
+To create the green icons on the new service page
+
+- Select Services X (where X is your new service type) in the Wordpress Navigation
+- Add New Post
+- Add Title of the page direct to
+- Set page to the page to direct to
+- Set icon to a white with no background (circle is generated automatically)
+- Press Publish
+
+### Add Services Custom Post
+
+To create the new service type green icons on the top level Services page
+
+- Select Services in the Wordpress Navigation
+- Add New Post
+- Add Title of the Sevices X page to direct to
+- Set page to the Services X page to direct to
+- Set icon to a white with no background (circle is generated automatically)
+- Press Publish

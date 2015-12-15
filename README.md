@@ -10,12 +10,12 @@ This is the user guide and conventions of the Oban Website found at http://www.o
     - [Linking into a post](#linking-into-a-post) OR
     - [Creating a form page](#creating-a-form-page)
   - [Services](#services)
-    - [Create a new service page](create-a-new-service-page)
-    - [Add menu](add-menu])
-    - [Add custom post type](add-custom-post-type)
-    - [Add custom post type to services field group](add-custom-post-type-to-services-field-group)
-    - [Add custom post](add-custom-post)
-    - [Add services custom post](add-services-custom-post)
+    - [Create a new service page](#create-a-new-service-page)
+    - [Add menu](#add-menu)
+    - [Add custom post type](#add-custom-post-type)
+    - [Add custom post type to services field group](#add-custom-post-type-to-services-field-group)
+    - [Add custom post](#add-custom-post)
+    - [Add services custom post](#add-services-custom-post)
 
 ## Forms
 
@@ -256,7 +256,7 @@ How to add a completely new services section
 - Set template to Services - Full Width
 - Press Publish (or Save Draft if you do not want this page to be publically visible yet)
 
-### Add Menu
+### Add menu
 
 To add the service page to the main menu
 
@@ -267,7 +267,7 @@ To add the service page to the main menu
 - Reorder any submenu items necessary under the new Service
 - Press Save Menu
 
-### Add Custom Post Type
+### Add custom post type
 
 To create the green icons for sub menu items of the new service page
 
@@ -280,7 +280,7 @@ To create the green icons for sub menu items of the new service page
 - Press Add Post Type
 - Press F5 (refresh) to reload the Wordpress Dashboard and show your new post type in Wordpress Navigation
 
-### Add Custom Post Type to Services Field Group
+### Add custom post type to services field group
 
 To allow selecting a page to direct the new custom posts to
 
@@ -289,7 +289,7 @@ To allow selecting a page to direct the new custom posts to
 - Press Add Rule Group
 - Post Type is equal to Service X
 
-### Add Custom Post
+### Add custom post
 
 To create the green icons on the new service page
 
@@ -300,7 +300,7 @@ To create the green icons on the new service page
 - Set icon to a white with no background (circle is generated automatically)
 - Press Publish
 
-### Add Services Custom Post
+### Add services custom post
 
 To create the new service type green icons on the top level Services page
 
